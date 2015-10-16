@@ -1,0 +1,38 @@
+# Site settings
+title: James Cool - Programming and Web Development
+email: jeffreysbrother@gmail.com
+description: A web development portfolio site.
+url: "http://webconfs.me" # the base hostname & protocol for your site
+twitter_username: jeffreysbrohter
+github_username:  jeffreysbrother
+paginate: 3
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: James Cool
+      layout: "post"
+      category: Programming
+      comments: true
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "drafts" # previously `post` in Jekyll 2.2.
+    values:
+      author: James Cool
+      layout: "post"
+      category: Programming
