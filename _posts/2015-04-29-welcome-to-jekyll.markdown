@@ -1,6 +1,5 @@
 ---
 title:  "grunt and image minification"
-date:   2015-10-16 09:45:36
 permalink: imagemin
 image: camp-sass.jpg
 ---
