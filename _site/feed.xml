@@ -5,65 +5,23 @@
     <description>programming and web development</description>
     <link>http://jeffreysbrother.github.io//</link>
     <atom:link href="http://jeffreysbrother.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Oct 2015 14:30:39 -0700</pubDate>
-    <lastBuildDate>Fri, 16 Oct 2015 14:30:39 -0700</lastBuildDate>
+    <pubDate>Fri, 16 Oct 2015 15:57:10 -0700</pubDate>
+    <lastBuildDate>Fri, 16 Oct 2015 15:57:10 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Treehouse Meetups</title>
-        <description>&lt;p&gt;This is a silly little, fake post for all you asdfff 8 out there.
-Have fun, babies!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Nov 2015 00:00:00 -0700</pubDate>
-        <link>http://jeffreysbrother.github.io//treehouse-meetups</link>
-        <guid isPermaLink="true">http://jeffreysbrother.github.io//treehouse-meetups</guid>
-        
-        
-        <category>programming</category>
-        
-      </item>
-    
-      <item>
-        <title>converge</title>
-        <description>&lt;p&gt;Camp Sass is a one-day, one-track Sass conference held in Atlanta, GA. It’s hosted by Hampton Catlin, the inventor of Sass! At this year’s conference, I had lots of fun, learned a ton, and met many talented web designers and developers.&lt;/p&gt;
+        <title>Treehouse and Self-Education</title>
+        <description>&lt;p&gt;Of course, there is nothing preventing a person enrolled at some expensive university from participating in self-motivated education; an impediment caused by a professor can be overcome in a person’s free time, and the cost of some program does not determine its quality. These things, I believe, should be fairly obvious.&lt;/p&gt;
 
-&lt;p&gt;Camp Sass is a one-day, one-track Sass conference held in Atlanta, GA. It’s hosted by Hampton Catlin, the inventor of Sass!&lt;/p&gt;
+&lt;p&gt;The feature of self-education that I find so efficacious is the simple fact that the student can &lt;em&gt;progress&lt;/em&gt; as quickly as his interest-level and abilities permit. The student who discovers a genuine interest isn’t forced to submit to the impediments of an academic calendar or a lesson plan. This is not to say that goals, rubrics, or a strict progression of material should be discarded (though it’s true that they often should). My point here is that the liberty associated with self-education frees the student from having to WAIT for the next module. Formal systems based on the “time-release” model (university, for example) encourage boredom and guarantee a great amount of inefficiency.&lt;/p&gt;
 
-&lt;p&gt;At this year’s conference, I had lots of fun, learned a ton, and met many talented web designers and developers.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 25 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://jeffreysbrother.github.io//converge</link>
-        <guid isPermaLink="true">http://jeffreysbrother.github.io//converge</guid>
-        
-        
-        <category>programming</category>
-        
-      </item>
-    
-      <item>
-        <title>SassConf</title>
-        <description>&lt;p&gt;Camp Sass is a one-day, one-track Sass conference held in Atlanta, GA. It’s hosted by Hampton Catlin, the inventor of Sass!&lt;/p&gt;
+&lt;p&gt;I’ve been skeptical of multiple aspects of formal education for quite some time, but many of my suspicions became more clear when I started taking classes at &lt;a href=&quot;https://teamtreehouse.com/&quot;&gt;Treehouse&lt;/a&gt;. Besides being amazed at how interested I was in the subject matter, I was amazed also at how quickly I was able to progress. Another beneficial outcome of self-guided education in general (and Treehouse’s service in particular) is the fact that the student, when overcome with boredom, is given the ability to &lt;em&gt;abandon&lt;/em&gt; the topic upon which he is currently focused and begin work elsewhere &lt;strong&gt;with no penalty whatsoever&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;At this year’s conference, I had lots of fun, learned a ton, and met many talented web designers and developers. Poop poop.&lt;/p&gt;
+&lt;p&gt;A person might object to the claim that participating in a service like Treehouse amounts to self-education. Why not consider it to be a variation of an online course offered by some university? I admit that my terminology and outlook might depart from contemporary philosophy of education; this is not something I claim to have studied and I know nothing about the actual “success rates” of competing models. All I’m suggesting is that certain individuals (individuals like myself) will likely benefit from the freedom to progress as quickly as he can and from the freedom to abandon some track—if he wishes—without penalty. These two elements alone are enough, I think, to distinguish Treehouse from university courses (even those taken partially or completely online). If these differences are admitted, then the terminological issues become non-issues.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 20 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://jeffreysbrother.github.io//sass-conf</link>
-        <guid isPermaLink="true">http://jeffreysbrother.github.io//sass-conf</guid>
-        
-        
-        <category>programming</category>
-        
-      </item>
-    
-      <item>
-        <title>grunt and image minification</title>
-        <description>&lt;p&gt;Camp Sass is a one-day, one-track Sass conference held in Atlanta, GA. It’s hosted by Hampton Catlin, the inventor of Sass!&lt;/p&gt;
-
-&lt;p&gt;At this year’s conference, I had lots of fun, learned a ton, and met many talented web designers and developers.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 29 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://jeffreysbrother.github.io//imagemin</link>
-        <guid isPermaLink="true">http://jeffreysbrother.github.io//imagemin</guid>
+        <pubDate>Fri, 16 Oct 2015 00:00:00 -0700</pubDate>
+        <link>http://jeffreysbrother.github.io//treehouse-education</link>
+        <guid isPermaLink="true">http://jeffreysbrother.github.io//treehouse-education</guid>
         
         
         <category>programming</category>
