@@ -3,8 +3,8 @@ title: About
 permalink: /about/
 ---
 
-This is a simple blog about all the web conferences I like to attend. Blah blah blah blah. [jekylrb.com](http://jekylrb.com/)
+Hi, I'm James Cool. After studying philosophy at UC Berkeley, and after *almost* learning (on separate occasions) Python, Visual Basic, and Ruby, I eventually started teaching myself web development. Right now I am spending most of my time with JavaScript and PHP.
 
-Blah blah blah blah [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I'm interested in automation tools and responsive design. I'm also a proponent of self-guided education. In my spare time
 
 You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
