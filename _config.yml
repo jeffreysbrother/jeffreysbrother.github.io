@@ -1,9 +1,9 @@
 # Site settings
 title: James Cool - Programming and Web Development
 email: jeffreysbrother@gmail.com
-description: A web development portfolio site.
-url: "http://webconfs.me" # the base hostname & protocol for your site
-twitter_username: jeffreysbrohter
+description: web development portfolio site
+url: "http://jeffreysbrother.github.io/" # the base hostname & protocol for your site
+twitter_username: jeffreysbrother
 github_username:  jeffreysbrother
 paginate: 3
 
