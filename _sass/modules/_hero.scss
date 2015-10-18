@@ -4,8 +4,8 @@
 
 .hero {
 	height: 335px;
-	background: url('#{$path--rel}/valley_close_crop_small.jpg');
-	            // linear-gradient(#75da8f, #77cae9);
+	background: url('#{$path--rel}/valley_close_crop_small.jpg'),
+	            linear-gradient(#DAB8A3, #6DBCDA);
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
 	background-size: cover;
