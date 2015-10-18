@@ -701,7 +701,7 @@ h2 {
 
 .hero {
   height: 335px;
-  background: url("../img/valley_close_crop.jpg");
+  background: url("../img/valley_close_crop_small.jpg");
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
