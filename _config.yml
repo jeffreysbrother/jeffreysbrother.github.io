@@ -6,6 +6,7 @@ url: "http://jeffreysbrother.github.io/" # the base hostname & protocol for your
 twitter_username: jeffreysbrother
 github_username:  jeffreysbrother
 paginate: 3
+highlighter: pygments
 
 # Build settings
 markdown: kramdown
