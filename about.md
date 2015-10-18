@@ -7,4 +7,6 @@ Hi, I'm James Cool. After studying philosophy at UC Berkeley, and after *almost*
 
 I'm interested in automation and scaffolding tools, responsive design, and templating languages. I'm also a proponent of self-guided education. In my spare time, I write music in order to keep myself away from philosophy.
 
-If you're interested in seeing some of the other things I've done, please visit [jeffreysbrother.com](http://jeffreysbrother.com/).
+If you're interested in seeing other things I've done, please visit [jeffreysbrother.com](http://jeffreysbrother.com/).
+
+If you'd like to see how this site was built, check out [Jekyll](http://jekyllrb.com/).
