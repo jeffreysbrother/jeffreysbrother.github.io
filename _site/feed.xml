@@ -5,8 +5,8 @@
     <description>programming and web development</description>
     <link>http://jeffreysbrother.github.io//</link>
     <atom:link href="http://jeffreysbrother.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Oct 2015 02:34:19 -0700</pubDate>
-    <lastBuildDate>Mon, 19 Oct 2015 02:34:19 -0700</lastBuildDate>
+    <pubDate>Mon, 19 Oct 2015 02:41:38 -0700</pubDate>
+    <lastBuildDate>Mon, 19 Oct 2015 02:41:38 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -35,20 +35,20 @@
     &lt;span class=&quot;s1&quot;&gt;&amp;#39;prefix&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Snippet Trigger&amp;#39;&lt;/span&gt;
     &lt;span class=&quot;s1&quot;&gt;&amp;#39;body&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Hello World!&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;The first line specifies the language for which the snippet will be used (JavaScript in the above example). The next line serves as a human-readable name for the snippet. This, I think, exists only for documentation purposes; if we provide a relevant name for this task, our code will be more readable. The ‘prefix’ refers to the (ideally short) abbreviation, and ‘body’ refers to the snippet that will be generated upon pressing &lt;code&gt;TAB&lt;/code&gt;. Here is an example of what the CSON block would look like if we were specifying the instructions for generating the HTML code in the first example above:&lt;/p&gt;
+&lt;p&gt;The first line specifies the language for which the snippet will be used (JavaScript in the above example). The next line serves as a human-readable name for the snippet. This, I believe, exists only for documentation purposes; if we provide a relevant name for this task, our code will be more readable. The ‘prefix’ refers to the (ideally short) abbreviation, and ‘body’ refers to the snippet that will be generated upon pressing &lt;code&gt;TAB&lt;/code&gt;. Here is an example of what the CSON block would look like if we were specifying the instructions for generating the HTML code in the first example above:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;.text.html.basic&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
   &lt;span class=&quot;s1&quot;&gt;&amp;#39;HTML&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
     &lt;span class=&quot;s1&quot;&gt;&amp;#39;prefix&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;html&amp;#39;&lt;/span&gt;
     &lt;span class=&quot;s1&quot;&gt;&amp;#39;body&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;lt;!DOCTYPE html&amp;gt;\n&amp;lt;html&amp;gt;\n\t&amp;lt;head&amp;gt;\n\t\t&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;\n\t\t&amp;lt;title&amp;gt;$1&amp;lt;/title&amp;gt;\n\t&amp;lt;/head&amp;gt;\n\t&amp;lt;body&amp;gt;\n\t\t$2\n\t&amp;lt;/body&amp;gt;\n&amp;lt;/html&amp;gt;&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Notice that in the ‘body’ section, in addition to the plain HTML, we also have escape sequences for newline characters and tabs. This is how we control the formatting of the snippet. We also see &lt;code&gt;$1&lt;/code&gt; and &lt;code&gt;$2&lt;/code&gt;. With these special characters, we can tell Atom where to insert the cursor with every subsequent press of the &lt;code&gt;TAB&lt;/code&gt; key. &lt;code&gt;$1&lt;/code&gt; is placed where we’d like the cursor to appear after we first generate the snippet. &lt;code&gt;$2&lt;/code&gt; is placed where we’d like the cursor to move when we hit &lt;code&gt;TAB&lt;/code&gt; a second time.&lt;/p&gt;
+&lt;p&gt;Notice that in the ‘body’ section, in addition to the plain HTML, we see escape sequences for newline characters and tabs. This is how we control the formatting of the snippet. We also see &lt;code&gt;$1&lt;/code&gt; and &lt;code&gt;$2&lt;/code&gt;. With these special characters, we can tell Atom where to insert the cursor with every subsequent press of the &lt;code&gt;TAB&lt;/code&gt; key. &lt;code&gt;$1&lt;/code&gt; is placed where we’d like the cursor to appear after we first generate the snippet. &lt;code&gt;$2&lt;/code&gt; is placed where we’d like the cursor to move when we hit &lt;code&gt;TAB&lt;/code&gt; a second time.&lt;/p&gt;
 
-&lt;p&gt;In order to determine the proper scope of the CSON block, we need to navigate to Atom preferences &amp;gt; packages, and the scroll down to the target language. If we click on “language-html”, under the HTML Grammar section, we’ll see that the value of the Scope variable is &lt;strong&gt;.text.html.basic&lt;/strong&gt;. If we forget to set the scope value in each CSON block, Atom will not know what the proper corresponding document type should be. If we’re creating a custom PHP snippet, for example, we need to specify a scope of &lt;strong&gt;.text.html.php&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In order to determine the proper scope of the CSON block, we need to navigate to Atom preferences &amp;gt; packages, and then scroll down to the target language. If we click on “language-html”, under the HTML Grammar section, we’ll see that the value of the Scope variable is &lt;strong&gt;.text.html.basic&lt;/strong&gt;. If we forget to set the scope value in each CSON block, Atom will not know what the proper corresponding document type should be. If we’re creating a custom PHP snippet, for example, we need to specify a scope of &lt;strong&gt;.text.html.php&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Also, if Emmet is installed, it’s important to disable it. Otherwise, updates to the snippets.cson file will have no effect. I’m not completely sure why this is, but perhaps it’s because Emmet snippets override the snippets native to Atom.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 19 Oct 2015 02:34:19 -0700</pubDate>
+        <pubDate>Mon, 19 Oct 2015 02:41:38 -0700</pubDate>
         <link>http://jeffreysbrother.github.io//2015-10-19-Atom-Snippet-Customization</link>
         <guid isPermaLink="true">http://jeffreysbrother.github.io//2015-10-19-Atom-Snippet-Customization</guid>
         
