@@ -122,6 +122,10 @@
 
 <p>Notice that in the ‘body’ section, in addition to the plain HTML, we also have escape sequences for newline characters and tabs. This is how we control the formatting of the snippet. We also see <code>$1</code> and <code>$2</code>. With these special characters, we can tell Atom where to insert the cursor with every subsequent press of the <code>TAB</code> key. <code>$1</code> is placed where we’d like the cursor to appear after we first generate the snippet. <code>$2</code> is placed where we’d like the cursor to move when we hit <code>TAB</code> a second time.</p>
 
+<p>In order to determine the proper scope of the CSON block, we need to navigate to Atom preferences &gt; packages, and the scroll down to the target language. If we click on “language-html”, under the HTML Grammar section, we’ll see that the value of the Scope variable is <strong>.text.html.basic</strong>. If we forget to set the scope value in each CSON block, Atom will not know what the proper corresponding document type should be. If we’re creating a custom PHP snippet, for example, we need to specify a scope of <strong>.text.html.php</strong>.</p>
+
+<p>Also, if Emmet is installed, it’s important to disable it. Otherwise, updates to the snippets.cson file will have no effect. I’m not completely sure why this is, but perhaps it’s because Emmet snippets override the snippets native to Atom.</p>
+
     </article>
 
 		
