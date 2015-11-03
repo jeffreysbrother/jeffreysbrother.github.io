@@ -10,3 +10,5 @@ I'm interested in automation and scaffolding tools, responsive design, and templ
 If you're interested in seeing other things I've done, please visit [jeffreysbrother.com](http://jeffreysbrother.com/).
 
 If you'd like to see how this site was built, check out [Jekyll](http://jekyllrb.com/).
+
+My r&eacute;sum&eacute; is available [here](http://127.0.0.1:4000/img/2015_resume_noA_11-3-2015.pdf).
