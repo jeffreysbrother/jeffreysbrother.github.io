@@ -9,6 +9,8 @@ Below is a list of online resources (both paid and free) that I have found to be
 
 [JavaScript: Understanding the Weird Parts](https://www.udemy.com/understand-javascript/)
 
+[You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
+
 [Java Tutorial for Complete Beginners](https://www.udemy.com/java-tutorial/)
 
 [WordPress Theme Development by LearnWebCode](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqMA4RdhSnnNcaqOVpX7qi5)
