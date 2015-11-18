@@ -3,10 +3,6 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-<!-- Below is a list of completed web projects currently live on production servers. These sites were built using a variety of technologies, but they all exemplify responsive, mobile-first design principles.
-
-*** -->
-
 #{{ page.title }}
 
 
