@@ -6,6 +6,7 @@ url: "http://jeffreysbrother.github.io/" # the base hostname & protocol for your
 twitter_username: jeffreysbrother
 github_username:  jeffreysbrother
 linkedin_username: jmcool
+paginate_path: "/blog/page/:num"
 paginate: 3
 highlighter: pygments
 
