@@ -5,6 +5,7 @@ description: programming and web development
 url: "http://jeffreysbrother.github.io/" # the base hostname & protocol for your site
 twitter_username: jeffreysbrother
 github_username:  jeffreysbrother
+linkedin_username: jmcool
 paginate: 3
 highlighter: pygments
 
