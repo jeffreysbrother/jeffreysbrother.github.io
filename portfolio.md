@@ -13,7 +13,7 @@ This site was originally built using just Bootstrap, PHP, Sass, and Grunt. Howev
 
 
 [This portfolio site &#10147;](http://jeffreysbrother.github.io/)
-Yes, *this* very site. The one you're looking at now. This was my first attempt at using a static site generator (Jekyll, in this case). Static site generators allow us to implement blogging functionality and a dynamically-styled navigation *without* using a backend language (in the traditional sense) or a database. I was also able to successfully include a contact form (by Formspree) and a commenting system (by Disqus). The moral of the story is that the bits of functionality typically handled by a database or a backend language are handled either by a third-party service or by a templating language (Liquid, in the case of Jekyll). View the project on [GitHub](https://github.com/jeffreysbrother/jeffreysbrother.github.io).
+Yes, *this* very site. The one you're looking at now. This was my first attempt at using a static site generator (Jekyll, in this case). Static site generators allow us to implement blogging functionality and dynamically-styled navigation *without* using a server-side language (in the traditional sense) or a database. I was also able to successfully include a contact form (by Formspree) and a commenting system (by Disqus). The moral of the story is that the bits of functionality typically handled by a database or a server-side language are handled either by a third-party service or by a templating language (Liquid, in the case of Jekyll). View the project on [GitHub](https://github.com/jeffreysbrother/jeffreysbrother.github.io).
 
 [![James' portfolio site](/img/portfolio-thumb.png "Portfolio Site")](http://jeffreysbrother.github.io/)
 
