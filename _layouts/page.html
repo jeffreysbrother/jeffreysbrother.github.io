@@ -5,7 +5,8 @@ layout: default
 	<div class="grid__col--12 page">
 
 	  <header class="post__header">
-	    <h1 class="headline-primary">{{ page.title }}</h1>
+			<!-- the conditional below will only insert the page title if the title is not "blog" -->
+	    <h1 class="headline-primary">{% if page.title != 'Blog' %}{{ page.title }}{% endif %}</h1>
 	  </header>
 
 	  <article class="post__content">
