@@ -7,6 +7,8 @@ permalink: /portfolio/
 
 *** -->
 
+#{{ page.title }}
+
 
 [jeffreysbrother.com &#10147;](http://jeffreysbrother.com/)
 This site was originally built using just Bootstrap, PHP, Sass, and Grunt. However, I've since converted the original design into a WordPress theme in order to add a blog (at the time I was interested in getting some experience with WordPress and wasn't yet aware of Jekyll or other static generators). View the project on [GitHub](https://github.com/jeffreysbrother/WordPress-integration).
