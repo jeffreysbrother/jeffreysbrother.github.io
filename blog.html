@@ -1,7 +1,8 @@
 ---
-layout: default
+title: Blog
+permalink: /blog/
 ---
-<div class="hero is-hidden-mobile"></div>
+<!-- <div class="hero is-hidden-mobile"></div> -->
 <div class="grid">
   <div class="grid__col--12">
     <ul class="post">
@@ -34,7 +35,7 @@ layout: default
           {% if page == paginator.page %}
             {{ page }}
           {% elsif page == 1 %}
-            <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+            <a href="{{ '/blog.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
           {% else %}
             <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
           {% endif %}
