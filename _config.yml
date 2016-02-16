@@ -8,7 +8,7 @@ github_username:  jeffreysbrother
 linkedin_username: jmcool
 paginate_path: "/blog/page/:num"
 paginate: 3
-highlighter: rogue
+highlighter: rouge
 
 # Build settings
 markdown: kramdown
