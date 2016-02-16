@@ -3,7 +3,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-{{ page.title }}
+#{{ page.title }}
 
 
 [jeffreysbrother.com &#10147;](http://jeffreysbrother.com/)
