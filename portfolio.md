@@ -6,7 +6,7 @@ permalink: /portfolio/
 {{ page.title }}
 
 
-[HTML Email Template](https://github.com/jeffreysbrother/HTML-email-template)
+[HTML Email Template &#10147;](https://github.com/jeffreysbrother/HTML-email-template)
 Modular, table-based HTML email template that anticipates common problems associated with email rendering in Gmail. Please see the README on GitHub for more information.
 
 [jeffreysbrother.com &#10147;](http://jeffreysbrother.com/)
