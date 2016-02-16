@@ -3,7 +3,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-{{ title }}
+{{ page.title }}
 
 
 [HTML Email Template &#10147;](https://github.com/jeffreysbrother/HTML-email-template)
