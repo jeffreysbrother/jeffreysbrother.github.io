@@ -9,6 +9,8 @@ linkedin_username: jmcool
 paginate_path: "/blog/page/:num"
 paginate: 3
 highlighter: rouge
+sass:
+  style: compressed
 
 # Build settings
 markdown: kramdown
