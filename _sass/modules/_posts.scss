@@ -1,6 +1,19 @@
 // ==========================================================================
 // Posts
 // ==========================================================================
+.post__content li {
+	list-style-type: disc;
+	font-size: 1em;
+}
+
+.post__content ul {
+	margin-left: 20px;
+	margin-bottom: 1.66667em
+}
+
+.post__content blockquote {
+	font-size: 1.125em;
+}
 
 .post {
 	@include e(item) {
