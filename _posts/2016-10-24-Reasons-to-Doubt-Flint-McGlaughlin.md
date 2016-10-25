@@ -13,7 +13,7 @@ Here is an abbreviated list of some of the hilarious features of said video:
 3. He references a 201% increase in leads (*i.e.* captured emails), but fails to mention the sample size.
 4. He unveils the heuristic *Rc[Vf - Cf] = Nf*, which might be the most excellent example of a truism imaginable.
 
-Why are these things so entertaining? Perhaps it's not clear why. Here's a nice, little aphorism:
+Why are these things so entertaining? Perhaps it's not clear why. Here's a nice, little aphorism I just pooped out:
 
 > False things are boring. Unjustified things are funny. Sophistical things are motherfucking hilarious.
 
