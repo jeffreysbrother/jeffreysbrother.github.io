@@ -17,7 +17,7 @@ markdown: kramdown
 permalink: /:title
 
 # Gems
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-gist]
 
 #Default settings
 defaults:
