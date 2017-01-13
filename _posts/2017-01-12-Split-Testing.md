@@ -2,7 +2,7 @@
 title: "A/B Tests"
 ---
 
-Let's imagine that we've established that the result of an A/B test will produce statistically significant results, according to industry research. This hypothetical site or application receives *a lot* of traffic, so we don't need to worry about misleading disparities emerging from some meager data set.
+Let's imagine that the result of a particular A/B test will produce statistically significant results. This hypothetical site or application receives *a lot* of traffic, so we don't need to worry about misleading disparities emerging from some meager data set.
 
 The test in question might amount to us directing half the traffic to one page, while the other half is directed at a modified version of that page. Perhaps a call to action is red in one case, yellow in another. Perhaps the headline is changed from "View Products Now" to "Find Out What You're Missing". Maybe the woman holding the bottle of alcohol on the modified page is younger, slightly more attractive, and less WASPy.
 
