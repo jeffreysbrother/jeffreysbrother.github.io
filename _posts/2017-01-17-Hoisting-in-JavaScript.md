@@ -16,18 +16,23 @@ function e(x) {
   alert("please " + x);
 }
 
-//5. function expression
+//5. anonymous function expression
 var add_or_concat = function(d, e) {
   alert(d + e);
 };
 
-//6. IIFE: immediately-invoked function expression
+//5. named function expression
+var subtract = function foo(d, e) {
+  alert(d - e);
+};
+
+//7. IIFE: immediately-invoked function expression
 (function() {
   console.log("success!");
 })();
 ```
 
-To be clear, function declaration differs from a function expression because the later is an anonymous function. In the case of 5, an anonymous function is assigned to a variable. The IIFE, on the other hand, is simply an anonymous function that calls itself.
+Precise differences between all of the above aren't crucial here. The only relevant distinction is between function expressions (in general) and function declarations; the former can be named or anonymous, but in all cases they are part of a larger structure (assigned to variable or immediately invoked, for example).
 
 ```js
 var ff = "outer";
