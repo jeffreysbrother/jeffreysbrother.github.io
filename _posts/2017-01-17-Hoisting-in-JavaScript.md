@@ -7,32 +7,32 @@ Variable and function declarations are stored in memory during the compilation p
 Before providing examples, let's ensure that our terminology is understood:
 
 ```js
-var a;            //1. variable declaration
-a = 16.4;         //2. variable assignment (or initialization)
-var b = 12;       //3. variable declaration and assignment
+var a;            // variable declaration
+a = 16.4;         // variable assignment (or initialization)
+var b = 12;       // variable declaration and assignment
 
-//4. function declaration
+// function declaration
 function e(x) {               
   alert("please " + x);
 }
 
-//5. anonymous function expression
+// anonymous function expression
 var add_or_concat = function(d, e) {
   alert(d + e);
 };
 
-//5. named function expression
+// named function expression
 var subtract = function foo(d, e) {
   alert(d - e);
 };
 
-//7. IIFE: immediately-invoked function expression
+// IIFE: immediately-invoked function expression
 (function() {
   console.log("success!");
 })();
 ```
 
-Precise differences between all of the above aren't crucial here. The only relevant distinction is between function expressions (in general) and function declarations; the former can be named or anonymous, but in all cases they are part of a larger structure (assigned to variable or immediately invoked, for example).
+Precise differences between all of the above aren't crucial here. The only relevant distinction is between function expressions (in general) and function declarations; the former can be named or anonymous, but in all cases they are part of a larger structure (they are assigned to variable or immediately invoked, for example).
 
 ```js
 var ff = "outer";
