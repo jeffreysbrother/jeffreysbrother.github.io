@@ -65,4 +65,4 @@ var alm = function() {
 }
 ```
 
-Since the blm function above is a function *declaration* (as opposed to a function expression), it will be "hoisted" in its entirety to the top of its scope; evoking it in this order will log "ABC". However, alm will not produce the same result precisely because it is a function *expression*; the variable declaration of alm will be "hoisted" to the top of its scope, so the interpreter will throw an error since we are, in effect, attempting to invoke an unassigned variable.   
+Since the blm function above is a function *declaration* (as opposed to a function expression), it will be "hoisted" in its entirety to the top of its scope; invoking it this way will log "ABC". However, alm will not produce the same result precisely because it is a function *expression*; the variable declaration of alm will be "hoisted" to the top of its scope, so the interpreter will throw an error since we are, in effect, attempting to invoke an unassigned variable.   
