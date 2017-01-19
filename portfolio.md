@@ -3,8 +3,6 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-
-
 [generator-ninthlink &#10147;](https://www.npmjs.com/package/generator-ninthlink)
 A Yeoman generator for scaffolding web pages. This tool allows for the rapid development of efficient pages. In addition to automatically creating your project structure and pulling in useful front-end dependencies, you can remove unused CSS rules, compile Sass, optimize images, and much more.
 
@@ -18,6 +16,9 @@ This site was originally built using just Bootstrap, PHP, Sass, and Grunt. Howev
 
 [This portfolio site &#10147;](https://github.com/jeffreysbrother/jeffreysbrother.github.io)
 Yes, *this* very site. The one you're looking at now. This was my first attempt at using a static site generator (Jekyll, in this case). Static site generators allow us to implement blogging functionality and dynamically-styled navigation *without* using a server-side language or a database. I was also able to successfully include a contact form (by Formspree) and a commenting system (by Disqus). The moral of the story is that the bits of functionality typically handled by a database or a server-side language are handled either by a third-party service or by a templating language (Liquid, in the case of Jekyll).
+
+[SpacesJS &#10147;](https://www.npmjs.com/package/spacesjs)
+This is a small Node module used to rename local files. Running it will replace all spaces with hyphens and convert uppercase characters to lowercase ones.
 
 
 <!-- [michaelchambersmusic.com &#10147;](http://michaelchambersmusic.com/)
