@@ -4,7 +4,9 @@ email: jeffreysbrother@gmail.com
 description: programming and web development
 url: "http://jeffreysbrother.github.io/" # the base hostname & protocol for your site
 twitter_username: jeffreysbrother
-github_username:  jeffreysbrother
+github_username: jeffreysbrother
+npm_username: jeffreysbrother
+treehouse_username: jamescool
 linkedin_username: jmcool
 paginate_path: "/blog/page/:num"
 paginate: 10
