@@ -38,4 +38,17 @@ $$
 
 $$
 P \lor Q
-$$  
+$$ 
+
+The last matrix thingy is writtin like this:
+
+```latex
+$$
+\begin{bmatrix}
+1 & x & x^2 \\
+1 & y & y^2 \\
+1 & z & z^2 \\
+\end{bmatrix}
+$$
+
+``` 
