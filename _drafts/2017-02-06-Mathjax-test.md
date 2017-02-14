@@ -1,5 +1,6 @@
 ---
 title: "MathJax test"
+tags: "MathJax"
 ---
 
 This is a test of MathJax.
@@ -38,7 +39,7 @@ $$
 
 $$
 P \lor Q
-$$ 
+$$
 
 The last matrix thingy is writtin like this:
 
@@ -51,4 +52,4 @@ $$
 \end{bmatrix}
 $$
 
-``` 
+```
