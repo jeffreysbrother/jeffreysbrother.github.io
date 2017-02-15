@@ -25,7 +25,12 @@ $$
 $$ 5 + 5 $$
 
 $$
-\vec{v}^{\,}
+\vec{v}^{\,} =
+\begin{bmatrix}
+1 & x & x^2 \\
+1 & y & y^2 \\
+1 & z & z^2 \\
+\end{bmatrix}
 $$
 
 
