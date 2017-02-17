@@ -9,7 +9,7 @@ npm_username: jeffreysbrother
 treehouse_username: jamescool
 linkedin_username: jmcool
 paginate_path: "/blog/page/:num"
-paginate: 10
+paginate: 20
 highlighter: rouge
 sass:
   style: compressed
