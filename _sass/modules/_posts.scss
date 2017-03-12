@@ -15,6 +15,18 @@
 	font-size: 1.125em;
 }
 
+.gist .gist-meta {
+	display: none;
+}
+
+.gist .gist-data {
+	border-bottom: none!important;
+}
+
+.gist .gist-file {
+	border-bottom: 1px solid #ddd!important;
+}
+
 .post {
 	@include e(item) {
 		border-bottom: 1px dotted palette(grey, light);
