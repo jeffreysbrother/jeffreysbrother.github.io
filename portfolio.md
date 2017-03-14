@@ -3,6 +3,14 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
+[Quicken Budget Calculator &#10147;](/calculator/)
+A JavaScript budget calculator that makes use of C3.js, autoNumeric.js, and a jQuery calculation plugin.
+![image-title-here](/img/quicken-budget.png)
+
+[apex social landing page &#10147;](https://apex-social.org/9/startdate/)
+This is a highly-optimized landing page developed with the *generator-ninthlink* tool (listed below). This is a fairly straightforward page build with Bootstrap and Sass.
+![image-title-here](/img/apex-social.png)
+
 [generator-ninthlink &#10147;](https://www.npmjs.com/package/generator-ninthlink)
 A Yeoman generator for scaffolding web pages. This tool allows for the rapid development of efficient pages. In addition to automatically creating your project structure and pulling in useful front-end dependencies, you can remove unused CSS rules, compile Sass, optimize images, and much more.
 
