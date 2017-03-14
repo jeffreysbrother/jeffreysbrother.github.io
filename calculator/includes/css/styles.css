@@ -827,6 +827,7 @@ div.redundant-section p.count-on-us {
   }
   .seo-section {
     margin-top: 65px;
+    width: inherit;
   }
 
   div.redundant-section {
