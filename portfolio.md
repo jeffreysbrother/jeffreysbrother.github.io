@@ -8,7 +8,7 @@ A JavaScript budget calculator that makes use of C3.js, autoNumeric.js, and a jQ
 ![image-title-here](/img/quicken-budget.png)
 
 [apex social landing page &#10147;](https://apex-social.org/9/startdate/)
-This is a highly-optimized landing page developed with the *generator-ninthlink* tool (listed below). This is a fairly straightforward page build with Bootstrap and Sass.
+This is a highly-optimized landing page developed with the *generator-ninthlink* tool (listed below), which uses Bootstrap, Sass, and a bit of jQuery.
 ![image-title-here](/img/apex-social.png)
 
 [generator-ninthlink &#10147;](https://www.npmjs.com/package/generator-ninthlink)
