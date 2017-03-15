@@ -4,11 +4,11 @@ permalink: /portfolio/
 ---
 
 [Quicken Budget Calculator &#10147;](/calculator/)
-A JavaScript budget calculator that makes use of C3.js, autoNumeric.js, and a jQuery calculation plugin.
+A JavaScript budget calculator that makes use of C3.js, autoNumeric.js, and a customized jQuery calculation plugin.
 ![image-title-here](/img/quicken-budget.png)
 
 [apex social landing page &#10147;](https://apex-social.org/9/startdate/)
-This is a highly-optimized landing page developed with the *generator-ninthlink* tool (listed below), which uses Bootstrap, Sass, and a bit of jQuery.
+This is a highly-optimized landing page developed with the *generator-ninthlink* tool (listed below). This project utilizes Bootstrap, Sass, and a bit of jQuery.
 ![image-title-here](/img/apex-social.png)
 
 [generator-ninthlink &#10147;](https://www.npmjs.com/package/generator-ninthlink)
