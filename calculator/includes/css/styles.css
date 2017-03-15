@@ -707,7 +707,7 @@ div.redundant-section p.count-on-us {
   }
 
   .contain-excess {
-    width: inherit;
+    width: 100%;
   }
 
   .red-box p,
