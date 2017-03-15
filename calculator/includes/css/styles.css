@@ -537,8 +537,6 @@ div.redundant-section div.right-text {
   display: inline-block;
   height: 166px;
   vertical-align: top;
-  /*margin-top: 50px;*/
-  /*margin-right: 15px;*/
   margin-top: -9px;
 }
 
@@ -733,7 +731,7 @@ div.redundant-section p.count-on-us {
     display: none;
   }
   input {
-    width: 98%;
+    width: 100%;
   }
   .left-input {
     margin-right: 0;
@@ -827,10 +825,10 @@ div.redundant-section p.count-on-us {
   }
   .seo-section {
     margin-top: 65px;
-    width: inherit;
+    padding: 0;
   }
 
   div.redundant-section {
-    width: inherit;
+    padding: 0;
   }
 }
