@@ -249,10 +249,11 @@ div.column1 td.total, div.column1 th.total {
 
 /*styles for input fields*/
 input {
+  box-sizing: border-box;
   border-radius: 6px;
   border: 2px solid #ccc;
   width: 300px;              /*reduced to 295 temporarily*/
-  height: 47px;
+  height: 52px;              /*before box-sizing, was 47px*/
   position: relative;
   font-weight: bold;
   color: #777;
