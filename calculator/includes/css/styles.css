@@ -309,33 +309,33 @@ p.other, p.HOA, p.car-ins, p.loans, p.cloth, p.invest {
 }
 
 p.phone {
-  margin-left: 378px;
-  margin-top: 254px;
+  margin-left: 368px;
+  margin-top: 250px;
 }
 
 p.TV {
   margin-left: 12px;
-  margin-top: 254px;
+  margin-top: 250px;
 }
 
 p.utilities, p.other-exp {
-  margin-left: 378px;
-  margin-top: 179px;
+  margin-left: 368px;
+  margin-top: 176px;
 }
 
 p.repairs, p.pet {
   margin-left: 12px;
-  margin-top: 179px;
+  margin-top: 176px;
 }
 
 p.ins, p.car-repair, p.med {
-  margin-left: 378px;
-  margin-top: 103px;
+  margin-left: 368px;
+  margin-top: 102px;
 }
 
 p.rent, p.gas, p.tuition, p.laundry, p.retire, p.ent {
   margin-left: 12px;
-  margin-top: 103px;
+  margin-top: 102px;
 }
 
 .left-input {
