@@ -761,10 +761,7 @@ div.redundant-section p.count-on-us {
     width: 100%;
     left: 0;
     float: none;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 17px 0;
     /*this forces the buttons to sit on top of the tall column1 div*/
     z-index: 5;
   }
@@ -807,6 +804,7 @@ div.redundant-section p.count-on-us {
   }
   div.image-container {
     height: 314px;
+    margin-top: 25px;
   }
   #chart {
     width: 314px;
@@ -824,11 +822,15 @@ div.redundant-section p.count-on-us {
     display: inline-block;
   }
   .seo-section {
-    margin-top: 65px;
-    padding: 0;
+    padding: 25px 0 0 0;
   }
 
   div.redundant-section {
     padding: 0;
+    height: auto;
+  }
+
+  div.redundant-section div.right-text {
+    height: auto;
   }
 }
