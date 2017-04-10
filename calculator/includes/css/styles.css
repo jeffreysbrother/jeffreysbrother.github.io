@@ -63,13 +63,6 @@ div.column2 {
   margin-top: 51px;
 }
 
-.last-panel-right {
-  width: 46%;
-  height: 100px;
-  background-color: pink;
-  display: inline-block;
-}
-
 div.last-panel-left h3 {
   color: #666;
   position: relative;
@@ -93,25 +86,12 @@ span.reddish {
   background: url(../img/chart.png) no-repeat center center;
 }
 
-.image-container img {
-  position: relative;
-  padding-left: 37px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.column3 table, .column4 table {
-  text-align: center;
-  vertical-align: middle;
-  line-height: 44px;
-}
-
 div.positive-income {
   background-color: #a2ca07;
-  background: -webkit-linear-gradient( 0deg, #a2ca07 90%, #86A607); /*Safari 5.1-6*/
-  background: -o-linear-gradient(0deg, #a2ca07 90%, #86A607); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(0deg, #a2ca07 90%, #86A607); /*Fx 3.6-15*/
-  background: linear-gradient(0deg, #a2ca07 90%, #86A607); /*Standard*/
+  background: -webkit-linear-gradient( 0deg, #a2ca07 90%, #86A607);
+  background: -o-linear-gradient(0deg, #a2ca07 90%, #86A607);
+  background: -moz-linear-gradient(0deg, #a2ca07 90%, #86A607);
+  background: linear-gradient(0deg, #a2ca07 90%, #86A607);
   border-radius: 9px;
   padding-top: 11px;
   padding-bottom: 11px;
@@ -343,10 +323,10 @@ p.rent, p.gas, p.tuition, p.laundry, p.retire, p.ent {
 }
 
 input:focus {
-    outline: none !important;
-    border:2px solid #a2ca07;
-    border-radius: 6px;
-    color: #333;
+  outline: none !important;
+  border:2px solid #a2ca07;
+  border-radius: 6px;
+  color: #333;
 }
 
 .whats-new-hero {
@@ -431,7 +411,6 @@ input:focus {
 /*the "completed" class styles the divs that denote lines between the numbers*/
 .prog .completed div {
   background: #a2ca07;
-
 }
 .prog .active a,
 .prog .completed a {
@@ -459,8 +438,8 @@ input:focus {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    display: table;
 }
 
 .clearfix:after {
@@ -490,14 +469,14 @@ input:not([type="checkbox"]):not([type="radio"]) {
 }
 
 /*TWO RULES BELOW: trying to get rid of the input shadows in android FireFox -- does not work*/
-::-moz-focus-inner {
+/*::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
 
 input {
   box-shadow: none;
-}
+}*/
 
 .seo-section {
   margin: 0 auto;
@@ -561,13 +540,6 @@ div.redundant-section p.count-on-us {
 .c3-empty {
   opacity: 1 !important;
 }
-
-.importantRule {
-  opacity: 0 !important;
-  z-index: -10;
-  margin-right: 800px;
-}
-
 
 
 /********************DYNAMIC LAST PANEL*****************************/
