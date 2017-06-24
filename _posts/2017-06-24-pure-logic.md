@@ -27,4 +27,6 @@ $$
 
 What does it mean when we square some value x? It means that we multiply it by itself. This is mutation. Pure logic, on the other hand, focuses *only* on inference patterns between sets of propositions where the primary question is not "what is the resulting value?" but "from {a, b, and c} can we infer x?"
 
+The difference might be much easier to cognize if viewed from a pragmatic perspective rather than a theoretical one. We use math to make calculations pertaining to all varieties of magnitude: weight, distance, velocity, rate of change, etc. Logic, by itself, does not have any "built-in" features to carry out any of that. Logic is used to study valid inference patterns that hold, typically, between assertions...for example, between a set of premises and a conclusion. This is why philosophy has never relied much on calculus, and engineering has never relied too heavily on first- or second-order logic.
+
 If I'm wrong about any of this, forgive me! Luckily, errors in this domain usually never result in bodily harm...and I'm fairly certain that mis-judgments of this nature will not have an influence on reincarnation details or my status in the afterlife.
