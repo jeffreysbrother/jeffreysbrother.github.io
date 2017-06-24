@@ -13,7 +13,7 @@ $$
 \neg({Px}\lor{Qy}) \Rightarrow (\neg{Px})\land(\neg{Qy})
 $$
 
-It says merely that from x we can infer y. And here's an example of distributive property for multiplication:
+It says merely that from x we can infer y. And here's an example of distributive property in an arithmetical context:
 
 $$
 2({x} + {y}) \Rightarrow 2{x} + 2{y}
@@ -27,4 +27,4 @@ $$
 
 What does it mean when we square some value x? It means that we multiply it by itself. This is mutation. Pure logic, on the other hand, focuses *only* on inference patterns between sets of propositions where the primary question is not "what is the resulting value?" but "from {a, b, and c} can we infer x?"
 
-If I'm wrong about any of this, forgive me! Luckily, errors in this domain usually never result in bodily harm...and I'm fairly certain that mis-judgments of this nature will not have an influence on reincarnation details or my status in the afterlife. 
+If I'm wrong about any of this, forgive me! Luckily, errors in this domain usually never result in bodily harm...and I'm fairly certain that mis-judgments of this nature will not have an influence on reincarnation details or my status in the afterlife.
