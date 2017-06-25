@@ -13,6 +13,7 @@ This is a highly-optimized landing page developed with the *generator-ninthlink*
 
 [generator-ninthlink &#10147;](https://www.npmjs.com/package/generator-ninthlink)
 A Yeoman generator for scaffolding web pages. This tool allows for the rapid development of efficient pages. In addition to automatically creating your project structure and pulling in useful front-end dependencies, you can remove unused CSS rules, compile Sass, optimize images, and much more.
+![image-title-here](/img/generator-ninthlink.png)
 
 [HTML Email Template &#10147;](https://github.com/jeffreysbrother/HTML-email-template)
 Modular, table-based HTML email template that anticipates common problems associated with email rendering in Gmail. Please see the README on GitHub for more information.
