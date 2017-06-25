@@ -15,6 +15,9 @@ This is a highly-optimized landing page developed with the *generator-ninthlink*
 A Yeoman generator for scaffolding web pages. This tool allows for the rapid development of efficient pages. In addition to automatically creating your project structure and pulling in useful front-end dependencies, you can remove unused CSS rules, compile Sass, optimize images, and much more.
 ![image-title-here](/img/generator-ninthlink.png)
 
+[generator-tcg &#10147;](https://www.npmjs.com/package/generator-tcg)
+A command line utility for The Control Group split testing team. An existing directory (the default variation) is cloned and renamed with the desired prefix and suffix. The new files will then serve as a variation against which the control will be tested.
+
 [HTML Email Template &#10147;](https://github.com/jeffreysbrother/HTML-email-template)
 Modular, table-based HTML email template that anticipates common problems associated with email rendering in Gmail. Please see the README on GitHub for more information.
 
