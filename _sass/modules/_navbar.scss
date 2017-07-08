@@ -213,6 +213,6 @@
 // this was causing the body of the side to move down when the mobile nav was activated.
 // don't seem to need this anyway...
 body.js-open,
-nav.js-open {
+.mobile-navbar.js-open {
 	overflow: hidden;
 }
