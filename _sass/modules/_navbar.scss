@@ -5,6 +5,7 @@
 .navbar {
 	position: relative;
 	@include mq(small) {
+		/* include this margin-bottom and remove "display: none" if mobile nav is removed */
 		/* margin-bottom: em(40px); */
 		display: none;
 	}
@@ -14,21 +15,6 @@
 		margin-bottom: em(24px);
 	}
 }
-
-/*
-#logo {
-	@media (min-width: 768px) {
-		display: none;
-	}
-  color: #fff;
-  font-size: 1em;
-  margin: 0;
-  position: absolute;
-  display: inline-block;
-  vertical-align: middle;
-  float: left;
-  padding: 1em 0.5em 0;
-} */
 
 .mobile-navbar {
 	@media (min-width: 768px) {
@@ -224,7 +210,9 @@
 }
 
 // prevent scrolling when overlay is visible
-body.js-open,
+// this was causing the body of the side to move down when the mobile nav was activated.
+// don't seem to need this anyway...
+/* body.js-open,
 nav.js-open {
 	overflow: hidden;
-}
+} */
