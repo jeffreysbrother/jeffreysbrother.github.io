@@ -45,16 +45,21 @@
 			opacity: 0;
 			display: table-cell;
 			vertical-align: middle;
-			/* 		not sure what all of this was really for
 			-webkit-transform: perspective(600px) rotateX(10deg);
 			transform: perspective(600px) rotateX(10deg);
 			-webkit-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
 			-moz-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
 			-o-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
-			transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63); */
+			transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
 			li {
 				list-style: none;
 				text-align: center;
+				-webkit-transform: perspective(600px) rotateX(10deg);
+				transform: perspective(600px) rotateX(10deg);
+				-webkit-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
+				-moz-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
+				-o-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
+				transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
 				a {
 					margin: 0 auto;
 					display:inline-block;
@@ -64,6 +69,12 @@
 					font-size: 1.4em;
 					font-weight: 600;
 					text-decoration: none;
+					-webkit-transform: perspective(600px) rotateX(10deg);
+					transform: perspective(600px) rotateX(10deg);
+					-webkit-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
+					-moz-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
+					-o-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
+					transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
 					&:hover,
 					&:active {
 						color: #000;
