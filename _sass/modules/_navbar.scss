@@ -16,23 +16,37 @@
 	}
 }
 
-.mobile-navbar {
-	@media (min-width: 768px) {
-		display: none;
-	}
-	.nav-background {
-		z-index: 99;
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: none;
-		display: table;
-		-webkit-transition: background-color 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
-		-moz-transition: background-color 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
-		-o-transition: background-color 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
-		transition: background-color 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+	background-color: #333;
+	background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background: #000;
+  display: block;
+  top: 0;
+  padding: 0;
+  z-index: 8;
+  height: 3.5em;
+  #logo {
+    color: #fff;
+    font-size: 1em;
+    margin: 0;
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    padding: 1em 0.5em 0;
+  }
+
+	.mobile-navbar {
 		ul {
 			margin: 0;
 			padding: 0;
@@ -46,15 +60,12 @@
 			display: table-cell;
 			vertical-align: middle;
 			-webkit-transform: perspective(600px) rotateX(10deg);
-			-moz-transform: perspective(600px) rotateX(10deg);
-			-ms-transform: perspective(600px) rotateX(10deg);
-			-o-transform: perspective(600px) rotateX(10deg);
 			transform: perspective(600px) rotateX(10deg);
 			-webkit-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
 			-moz-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
-			-ms-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
 			-o-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
 			transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
+
 			li {
 				list-style: none;
 				text-align: center;
@@ -75,27 +86,37 @@
 			}
 		}
 	}
-}
 
-#toggle {
-	@media (min-width: 769px) {
-		display: none;
+	.nav-background {
+		z-index: 99;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: none;
+		display: table;
+		-webkit-transition: background-color 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+		-moz-transition: background-color 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+		-o-transition: background-color 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+		transition: background-color 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
 	}
-	height: 3em;
-	z-index: 999;
-	padding: 1.5em 1em 0;
-	cursor: pointer;
-	position: fixed;
-	top: 0;
-	right: .5em;
-	-webkit-transition: padding-top 0.6s cubic-bezier(0.1, 0.01, 0.3, 1);
-	transition: padding-top 0.6s cubic-bezier(0.1, 0.01, 0.3, 1);
+	#toggle {
+		height: 3em;
+		z-index: 999;
+		padding: 1.5em 1em 0;
+		cursor: pointer;
+		position: fixed;
+		top: 0;
+		right: .5em;
+		-webkit-transition: padding-top 0.6s cubic-bezier(0.1, 0.01, 0.3, 1);
+		transition: padding-top 0.6s cubic-bezier(0.1, 0.01, 0.3, 1);
+	 }
 }
 
 .menubars {
   width: 24px;
   height: 4px;
-  background: #797e83;
+  background: #fff;
   position: relative;
   z-index: 999;
   -webkit-transition:all 0.3s ease-in-out;
@@ -112,7 +133,7 @@
     display: block;
     width: 24px;
     height: 4px;
-    background: #797e83;
+    background: #fff;
     position: absolute;
     z-index: -1;
     -webkit-transition:all 0.3s ease-in-out;
@@ -145,7 +166,7 @@
 		}
 	}
 	.nav-background {
-		background: rgba(51,159,200, 0.9);
+		background: rgba(27, 128, 167, 0.9);
 		ul {
 			visibility: visible;
 			opacity: 1;
@@ -159,8 +180,6 @@
 }  // end .js-open
 
 // prevent scrolling when overlay is visible
-// this was causing the body of the side to move down when the mobile nav was activated.
-// don't seem to need this anyway...
 body.js-open,
 .mobile-navbar.js-open {
 	overflow: hidden;
