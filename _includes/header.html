@@ -30,18 +30,15 @@
 			<nav class="mobile-navbar">
 					<div class="nav-background">
 						<ul>
-							 <li>
-								 <a href="">Contact</a>
-							 </li>
-							 <li>
-								<a href="#">Blog</a>
-							 </li>
-							 <li>
-								<a href="#">Now</a>
-							 </li>
-							 <li>
-								<a href="#">Portfolio</a>
-							 </li>
+							 {% for page in site.pages %}
+			         <!-- Compare the page title to the URL -->
+			         {% assign current = page.title | downcase %}
+			           {% if page.title %}
+			           <li>
+			             <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+			           </li>
+			           {% endif %}
+			         {% endfor %}
 						</ul>
 				</div>
 			</nav>
