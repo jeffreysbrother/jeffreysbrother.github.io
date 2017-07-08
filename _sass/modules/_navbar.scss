@@ -16,18 +16,21 @@
 	}
 }
 
-  #logo {
-    color: #fff;
-    font-size: 1em;
-    margin: 0;
-    position: absolute;
-    display: inline-block;
-    vertical-align: middle;
-    float: left;
-    padding: 1em 0.5em 0;
-  }
+/*   #logo {
+  color: #fff;
+  font-size: 1em;
+  margin: 0;
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+  padding: 1em 0.5em 0;
+} */
 
 	.mobile-navbar {
+		@media (min-width: 769px) {
+			display: none;
+		}
 		ul {
 			margin: 0;
 			padding: 0;
@@ -87,6 +90,9 @@
 		transition: background-color 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
 	}
 	#toggle {
+		@media (min-width: 769px) {
+			display: none;
+		}
 		height: 3em;
 		z-index: 999;
 		padding: 1.5em 1em 0;
