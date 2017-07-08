@@ -47,10 +47,12 @@
 			vertical-align: middle;
 			-webkit-transform: perspective(600px) rotateX(10deg);
 			-moz-transform: perspective(600px) rotateX(10deg);
+			-ms-transform: perspective(600px) rotateX(10deg);
 			-o-transform: perspective(600px) rotateX(10deg);
 			transform: perspective(600px) rotateX(10deg);
 			-webkit-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
 			-moz-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
+			-ms-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
 			-o-transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
 			transition: all 0.5s cubic-bezier(0.7, 0, 0.36, 0.63);
 			li {
@@ -147,11 +149,11 @@
 		ul {
 			visibility: visible;
 			opacity: 1;
-		/* 			-webkit-transform: perspective(600px) rotateX(0deg);
-		-moz-transform: perspective(600px) rotateX(0deg);
-		-ms-transform: perspective(600px) rotateX(0deg);
-		-o-transform: perspective(600px) rotateX(0deg);
-		transform: perspective(600px) rotateX(0deg) */
+			-webkit-transform: perspective(600px) rotateX(0deg);
+			-moz-transform: perspective(600px) rotateX(0deg);
+			-ms-transform: perspective(600px) rotateX(0deg);
+			-o-transform: perspective(600px) rotateX(0deg);
+			transform: perspective(600px) rotateX(0deg)
 		}
 	}
 }  // end .js-open
