@@ -1,7 +1,3 @@
-// ==========================================================================
-// Grid display
-// ==========================================================================
-
 .is-displayed-mobile {
   @include mq(small) {
     display: block;
@@ -11,7 +7,7 @@
       }
     }
   }
-  @include mq(medium) { 
+  @include mq(medium) {
     display: none;
-  }	
+  }
 }

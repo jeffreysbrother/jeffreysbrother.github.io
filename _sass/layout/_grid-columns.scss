@@ -1,7 +1,3 @@
-// ==========================================================================
-// Grid Columns
-// ==========================================================================
-
 // Generates grid columns
 
 .grid__col {
@@ -13,11 +9,11 @@
 // Column styles
 
 [class^="grid__col--"] {
-	@include mq(small)  { 
+	@include mq(small)  {
 		margin-top: em(12px);
 		margin-bottom: em(12px);
 	}
-	@include mq(medium) { 
+	@include mq(medium) {
 		@include doubly(percentage($g-gutter-width / $context));
 		float: left;
 		min-height: 1px;

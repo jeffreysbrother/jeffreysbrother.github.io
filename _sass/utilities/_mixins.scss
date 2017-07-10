@@ -1,7 +1,3 @@
-// ==========================================================================
-// Mixins
-// ==========================================================================
-
 // BEM selectors
 
 @mixin e($element) {
@@ -49,7 +45,7 @@
       @if $p-el {
         &:after {
           background-color: lighten($color, 8%);
-        } 
+        }
       }
     }
   }
@@ -68,7 +64,7 @@
        height: $el-h;
        @content;
      }
-   } 
+   }
    @else {
      @error "`#{$el}` is not a valid pseudo-element.";
    }
@@ -100,7 +96,7 @@
     $context: g-context($g-col-width, $g-col-count ,$g-gutter-width) !global;
     $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
 
-    // Generate and output the column modifier classes 
+    // Generate and output the column modifier classes
     &--#{$i} {
       width: percentage($target / $context);
     }
