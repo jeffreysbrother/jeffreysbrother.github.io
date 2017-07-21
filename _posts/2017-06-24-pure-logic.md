@@ -10,13 +10,13 @@ But I believe there is another difference: some operators in mathematics specify
 Here's an example of one of De Morgan's rules:
 
 $$
-\neg({Px}\lor{Qy}) \Rightarrow (\neg{Px})\land(\neg{Qy})
+\neg({Px}\lor{Qy}) \rightarrow (\neg{Px})\land(\neg{Qy})
 $$
 
 It says merely that from x we can infer y. And here's an example of distributive property in an arithmetical context:
 
 $$
-2({x} + {y}) \Rightarrow 2{x} + 2{y}
+2({x} + {y}) \rightarrow 2{x} + 2{y}
 $$
 
 This too amounts to "from x, we can infer y". Therefore, I am not intending to say that only logic utilizes transformation rules that are free of mutation (the example above illustrates that this phenomenon appears in mathematics as well). My point is that *after* we're done translating some logical statement (deriving an equivalent, perhaps more simple statement from a complex one), there is no additional step that amounts to a mutation of logical atoms. If we consider all of the connectives in first-order logic ("and", "or", etc.) and the quantifiers ("all", "some", etc.) as well as other operators (e.g. "not"), none of these denote an operation that mutates a variable; only the resulting truth-values will be affected. A simple example of how this differs in mathematics can be seen here:
