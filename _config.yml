@@ -8,7 +8,7 @@ github_username: jeffreysbrother
 npm_username: jeffreysbrother
 treehouse_username: jamescool
 linkedin_username: jmcool
-paginate_path: "/blog/page/:num"
+paginate_path: "/text/page/:num"
 paginate: 20
 highlighter: rouge
 sass:

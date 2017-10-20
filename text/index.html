@@ -1,6 +1,6 @@
 ---
-title: Blog
-permalink: /blog/
+title: Text
+permalink: /text/
 ---
 
     <ul class="post">
@@ -33,7 +33,7 @@ permalink: /blog/
           {% if page == paginator.page %}
             {{ page }}
           {% elsif page == 1 %}
-            <a href="{{ '/blog.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+            <a href="{{ '/text.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
           {% else %}
             <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
           {% endif %}
