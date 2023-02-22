@@ -62,7 +62,6 @@ a {
   background-color: rgba(255,255,255,0.9);
   padding: .75em 1rem;
   margin-bottom: 1.5rem;
-  box-sizing: border-box; /* I added this line to fix an overflow issue */
 }
 #fs-frm input:focus,
 #fs-frm select:focus,
@@ -146,6 +145,13 @@ a {
 
 #fs-frm input, #fs-frm select, #fs-frm textarea, #fs-frm #card-element {
     margin-bottom: 1em;
+}
+
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  box-sizing: border-box;
 }
 /********* end customize form *********/
 
