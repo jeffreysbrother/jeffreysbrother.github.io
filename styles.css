@@ -144,7 +144,7 @@ a {
 
 #fs-frm label, #fs-frm legend, #fs-frm ::placeholder {
     font-size: 16px;
-    color: #888;
+    color: #666;
 }
 
 #fs-frm input, #fs-frm select, #fs-frm textarea, #fs-frm #card-element {
