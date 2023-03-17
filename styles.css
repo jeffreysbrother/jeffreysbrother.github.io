@@ -19,7 +19,9 @@ p, a {
 }
 
 a {
-    color: #d142cc;
+    /* color: #d142cc; */
+    /* higher contrast ratio necessary */
+    color: #c71ec1;
 }
 
 .soundcloud-container a {
