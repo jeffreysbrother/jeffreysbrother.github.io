@@ -22,6 +22,10 @@ a {
     color: #d142cc;
 }
 
+.soundcloud-container a {
+  font-size: inherit;
+}
+
 
 /********* form reset *********/
 #fs-frm input,
