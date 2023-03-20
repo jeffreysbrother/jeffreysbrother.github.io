@@ -1,8 +1,8 @@
-import './App.css';
+import './Homepage.css';
+import { Link } from "react-router-dom";
 
-function App() {
-  return (
-    <div id="main-container">
+const Homepage = () => (
+  <div id="homepage">
     <h1>hello, i'm james</h1>
     {/* <p>i am a person who once liked to dig holes and crochet and rollerblade, who eventually dropped out of a graduate program in philosophy. at one point, i thought a lot about the extent of our control over belief states, but now I think about other things like the history of political Liberalism, "social justice" mythology, and room acoustics.</p> */}
     <p>i am a software developer and musician.</p>
@@ -38,8 +38,9 @@ function App() {
       </fieldset>
       <input type="submit" value="Submit" />
     </form>
-  </div>
-  );
-}
 
-export default App;
+    {/* <Link to="/acoustics">acoustics</Link> */}
+  </div>
+);
+
+export default Homepage;

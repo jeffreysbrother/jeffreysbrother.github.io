@@ -1,0 +1,25 @@
+#main-container {
+    max-width: 700px;
+    margin: 0 auto 3em;
+    padding: 1em;
+}
+  
+* {
+    font-family: sans-serif;
+    color: #555;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p, a {
+    font-size: 22px;
+}
+
+a {
+    /* color: #d142cc; */
+    /* higher contrast ratio necessary */
+    color: #c71ec1;
+}
