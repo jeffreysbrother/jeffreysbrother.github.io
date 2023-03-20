@@ -17,7 +17,7 @@ function App() {
     {/* soundcloud snippet
     edited the following slightly */}
     <iframe title="original music on SoundCloud" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1562809495&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-    <div class="soundcloud-container" style={{fontSize: '10px', color: '#7f7f7f', lineBreak: 'anywhere', wordBreak: 'normal', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis', fontFamily: 'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif', fontWeight: 100}}><a href="https://soundcloud.com/jeffreysbrother" title="jeffreysbrother" target="_blank" rel="noreferrer" style={{color: '#666', textDecoration: 'none'}}>jeffreysbrother</a> · <a href="https://soundcloud.com/jeffreysbrother/sets/sandwich-dream" title="sandwich dream" target="_blank" rel="noreferrer" style={{color: '#666', textDecoration: 'none'}}>sandwich dream</a></div>
+    <div className="soundcloud-container" style={{fontSize: '10px', color: '#7f7f7f', lineBreak: 'anywhere', wordBreak: 'normal', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis', fontFamily: 'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif', fontWeight: 100}}><a href="https://soundcloud.com/jeffreysbrother" title="jeffreysbrother" target="_blank" rel="noreferrer" style={{color: '#666', textDecoration: 'none'}}>jeffreysbrother</a> · <a href="https://soundcloud.com/jeffreysbrother/sets/sandwich-dream" title="sandwich dream" target="_blank" rel="noreferrer" style={{color: '#666', textDecoration: 'none'}}>sandwich dream</a></div>
     {/* end soundcloud snippet */}
 
     <p>i also wrote a thing about how Sam Harris is wrong about stuff: <a href="https://jeffreysbrother.medium.com/sam-harris-on-human-reasoning-2fd56894773b" target="_blank" rel="noreferrer">Sam Harris on Human Reasoning</a>.</p>
@@ -27,11 +27,11 @@ function App() {
     <p>Contact Me:</p>
     <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mrgvabkg" method="post">
       <fieldset id="fs-frm-inputs">
-        <label for="full-name">your name</label>
+        <label htmlFor="full-name">your name</label>
         <input type="text" name="name" id="full-name" placeholder="" required="true" />
-        <label for="email-address">your email address</label>
+        <label htmlFor="email-address">your email address</label>
         <input type="email" name="_replyto" id="email-address" placeholder="" required="true" />
-        <label for="message">message</label>
+        <label htmlFor="message">message</label>
         <textarea rows="5" name="message" id="message" placeholder="" required="true"></textarea>
         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
         <input type="text" name="_gotcha" style={{display: 'none'}} />
